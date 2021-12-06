@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+    <title>Personal Website</title>
+</head>
+
+<body>
+    <nav class="navbar" >
+        <div class="inner-width">
+            <a href="/" class="logo"></a>
+            <button class="menu-toggler active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-menu active">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#education">Education</a>
+                <a href="#works">Works</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="home" class="home">
+        <div class="inner-width">
+            <div class="content">
+                <h1>Hi I'm  </h1>
+                <div class="sm">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="buttons">
+                    <a href="#contact">Contact me</a>
+                    <a href="">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="inner-width">
+            <h1 class="section-title">About</h1>
+            <div class="about-content">
+                <img src="{% static 'images/profile.png' %}" class="about-pic">
+                <div class="about-text">
+                    <h1>Hi! I'm Farheen</h1>
+                    <h3>
+                        <span>Developer</span>
+                        <span>Designer</span>
+                        <span>Freelancer</span>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque ipsa obcaecati ratione
+                        quas iusto vel animi, quasi cumque, omnis cupiditate pariatur ad, quod recusandae magnam nemo.
+                        Aut a porro tempora sunt architecto, vitae molestias maxime, voluptatem nobis expedita
+                        reiciendis esse aperiam pariatur aliquam culpa cum ducimus eum corrupti ipsa? Velit tempora
+                        voluptas temporibus repudiandae eveniet! Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Blanditiis atque ipsa obcaecati ratione quas iusto vel animi, quasi cumque, omnis
+                        cupiditate pariatur ad, quod recusandae magnam nemo. Aut a porro tempora sunt architecto, vitae
+                        molestias maxime, voluptatem nobis expedita reiciendis esse aperiam pariatur aliquam culpa cum
+                        ducimus eum corrupti ipsa? Velit tempora voluptas temporibus repudiandae eveniet! Neque
+                        repellendus odit qui consequuntur vel officiis, labore quas veniam sit adipisci vitae beatae.
+                    </p>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar html"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>CSS</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar CSS"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Bootstrap</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="skill-bar Bootstrap"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Python</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill-bar Python"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Javascript</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill-bar Javascript"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Wordpress</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="skill-bar SQL"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="dark">
+        <div class="inner-width">
+            <h1 class="section-title">Services</h1>
+            <div class="services">
+                <div class="service">
+                    <i class="icon fas fa-paint-brush"></i>
+                    <h4>Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab.</p>
+                </div>
+                <div class="service">
+                    <i class="icon fas fa-pager"></i>
+                    <h4>Build Websites</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab.</p>
+                </div>
+                <div class="service">
+                    <i class="icon fas fa-database"></i>
+                    <h4>Manage Database</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab.</p>
+                </div>
+                <div class="service">
+                    <i class="icon fas fa-laptop "></i>
+                    <h4>GUI Apps</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab.</p>
+                </div>
+                <div class="service">
+                    <i class="icon fas fa-credit-card"></i>
+                    <h4>UI Designes</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab.</p>
+                </div>
+                <div class="service">
+                    <i class="icon fas fa-credit-card"></i>
+                    <h4>Software development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <div class="inner-width">
+            <h1 class="section-title">Education and Experience</h1>
+            <div class="time-line">
+               
+               
+                <div class="block">
+                    <h4>2018-2019</h4>
+                    <h3>Software Engeneering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim quas aspernatur est
+                        repudiandae laudantium et velit! Consequuntur, possimus sequi.</p>
+                </div>
+                <div class="block">
+                    <h4>2018-2019</h4>
+                    <h3>Software Engeneering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim quas aspernatur est
+                        repudiandae laudantium et velit! Consequuntur, possimus sequi.</p>
+                </div>
+                <div class="block">
+                    <h4>2018-2019</h4>
+                    <h3>Software Engeneering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim quas aspernatur est
+                        repudiandae laudantium et velit! Consequuntur, possimus sequi.</p>
+                </div>
+                <div class="block">
+                    <h4>2018-2019</h4>
+                    <h3>Software Engeneering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim quas aspernatur est
+                        repudiandae laudantium et velit! Consequuntur, possimus sequi.</p>
+                </div>
+                <div class="block">
+                    <h4>2018-2019</h4>
+                    <h3>Software Engeneering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim quas aspernatur est
+                        repudiandae laudantium et velit! Consequuntur, possimus sequi.</p>
+                </div>
+                <div class="block">
+                    <h4>2018-2019</h4>
+                    <h3>Software Engeneering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim quas aspernatur est
+                        repudiandae laudantium et velit! Consequuntur, possimus sequi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="works dark" id="works">
+        <div class="inner-width">
+            <h1 class="section-title">
+                Works
+            </h1>
+            <div class="works">
+                <a href="https://github.com/farheencoder/django-blog" class="work">
+                    <img src="https://www.bounteous.com/sites/default/files/styles/default/public/insights/2019-10/previews/20191003_blog_scoping_a_data_science_project_in_a_smarter_way_website.png?itok=TKaHtpX-">
+                    <div class="info">
+                        <h3>Work Title</h3>
+                        <div class="cat">Visit Code</div>
+                    </div>
+                </a>
+                <a href="https://github.com/farheencoder/django-blog" class="work">
+                    <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/project-planning/why-is-project-management-important-header@2x.png">
+                    <div class="info">
+                        <h3>Work Title</h3>
+                        <div class="cat">Visit Code</div>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/farheencoder/django-blog" class="work">
+                    <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200121234029/Top-10-Projects-For-Beginners-To-Practice-HTML-and-CSS-Skills.jpg">
+                    <div class="info">
+                        <h3>Work Title</h3>
+                        <div class="cat">Visit Code</div>
+                    </div>
+                </a>
+                <a href="https://github.com/farheencoder/django-blog" class="work">
+                    <img src="https://specials-images.forbesimg.com/imageserve/5e91e9f381295f00079a210b/960x0.jpg?fit=scale">
+                    <div class="info">
+                        <h3>Work Title</h3>
+                        <div class="cat">Visit Code</div>
+                    </div>
+                </a>
+                <a href="https://github.com/farheencoder/django-blog" class="work">
+                    <img src="https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2019/02/sb-blog-ai.png">
+                    <div class="info">
+                        <h3>Work Title</h3>
+                        <div class="cat">Visit Code</div>
+                    </div>
+                </a>
+                <a href="https://github.com/farheencoder/django-blog" class="work">
+                    <img src="https://www.bounteous.com/sites/default/files/styles/default/public/insights/2019-10/previews/20191003_blog_scoping_a_data_science_project_in_a_smarter_way_website.png?itok=TKaHtpX-">
+                    <div class="info">
+                        <h3>Work Title</h3>
+                        <div class="cat">Visit Code</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="inner-width">
+            <h1 class="section-title">Get In Touch</h1>
+            <div class="contact-info">
+                <div class="item">
+                    <i class="l fas fa-mobile-alt"></i>
+                    <br>
+                    +123 123-456-7890
+                </div>
+                <div class="item">
+                    <i class="l fas fa-envelope"></i><br>
+                    username123@gmail.com
+                </div>
+                <div class="item">
+                    <i class="l fas fa-map-marker-alt"></i><br>
+                    America, Washington-DC
+                </div>
+            </div>
+            <form action="{% url 'contact' %}" method="POST" class="contact-form">
+                <input type="text" class="name" name="name" placeholder="Full Name" required>
+                <input type="email" class="email" name="email" placeholder="Your Email" required>
+                <input type="text" class="subject" name="subject" placeholder="Subject" required>
+                <textarea class="message" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+   <footer>
+       <div class="inner-width">
+           &copy; 2020| Created and Designed By <strong>Farheen</strong>
+       </div>
+   </footer>  
+    <button class="goTop"><i class="fas fa-arrow-up"></i></button>
+   
+</body>
+
+
+
+</html>
